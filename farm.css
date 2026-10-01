@@ -1,0 +1,101 @@
+.body{
+    background-color: rgb(161, 165, 167);
+    margin: 0%;
+    width: 100%;
+}
+.one{
+   color: rgb(12, 11, 11);
+    background-color: rgb(231, 231, 240);
+    font-style: normal;
+    border:1px;
+    text-align: center;
+    font-size: 16px;
+    margin: 6%; 
+}
+.two{
+    color: blue;
+    background-color: rgb(229, 231, 243);
+    font-style: normal;
+    border: 1px;
+    text-align: center;
+    font-size: 20px;
+    margin: 6%;
+}
+.three{
+    color: rgb(190, 28, 28);
+    background-color: rgb(229, 231, 243);
+    font-style: normal;
+    border: 1px;
+    text-align: center;
+    font-size: 20px;
+    margin: 6%;
+}
+.four{
+    color: rgb(161, 129, 40);
+    background-color: rgb(229, 231, 243);
+    font-style: normal;
+    border: 1px;
+    text-align: center;
+    font-size: 20px;
+    margin: 6%;
+}
+.five{
+    color: rgb(128, 61, 22);
+    background-color: rgb(229, 231, 243);
+    font-style: normal;
+    border: 1px;
+    text-align: center;
+    font-size: 20px;
+    margin: 6%;
+}
+img{
+    max-width: 100px;
+    height: auto;
+}
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+}
+p{font-size: 20px;}
+@media screen and(max-width: 500px){
+    .body{
+        color: rgb(63, 35, 219);
+         }
+    p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:500px) {
+    .one{
+        color: rgb(155, 90, 96); 
+        font-size: 12px;
+    p{
+        font-size: 12px;
+    } 
+         }
+@media ( orientation: portrait) {
+    .two{
+        color: red;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+}
+   
+}        
+      
+      
+    
+
+    
+
+    
+    
+
+
+
+    
+
+    
+ 
+
+
+

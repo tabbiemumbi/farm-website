@@ -1,0 +1,155 @@
+.one{
+    background-color: rgb(24, 21, 17);
+    width: 95vw;
+    height: 20vh;
+    gap: 8px;
+    display: flex;
+    margin: 1%;
+}
+/*two is a div talking about cassava*/
+.two{
+    width: 22%;
+    border: solid 2px rgb(142, 229, 186);
+    background-color: bisque 
+}
+.three{
+    background-color: rgb(15, 14, 13);
+    width: 95vw;
+    height: 20vh;
+    display: flex;
+    gap: 8px;
+    margin: 1%;
+}
+.four{
+    width: 22%;
+    border: solid 2px rgb(142, 229, 186);
+    background-color: bisque
+
+}
+.five{
+    background-color: rgb(8, 8, 7);
+    width: 95vw;
+    height: 20vh;
+    display: flex;
+    gap: 8px;
+    margin: 1%;
+}
+.six{
+    width: 22%;
+    border: solid 2px rgb(142, 229, 186);
+    background-color: bisque
+} 
+.seven{
+    background-color: rgb(7, 7, 6);
+    width: 95vw;
+    height: 20vh;
+    display: flex;
+    gap: 8px;
+    margin: 1%;
+}
+.eight{
+     width: 22%;
+    border: solid 2px rgb(142, 229, 186);
+    background-color: bisque
+} 
+.nine{
+    background-color: rgb(7, 7, 6);
+    width: 95vw;
+    height: 20vh;
+    display: flex;
+    gap: 8px;
+    margin: 1%;
+}
+/*ten is div talking about pigs*/
+.ten{
+ width: 22%;
+border: solid 2px rgb(142, 229, 186);
+background-color: bisque   
+}
+.eleven{
+     background-color: rgb(7, 7, 6);
+    width: 95vw;
+    height: 20vh;
+    display: flex;
+    gap: 8px;
+    margin: 1%;
+}
+.twelve{
+   width: 22%;
+border: solid 2px rgb(142, 229, 186);
+background-color: bisque 
+} 
+.thirteen{
+ background-color: rgb(7, 7, 6);
+    width: 95vw;
+    height: 20vh;
+    display: flex;
+    gap: 8px;
+    margin: 1%;   
+}
+.fourteen{
+   width: 22%;
+border: solid 2px rgb(142, 229, 186);
+background-color: bisque  
+}
+/*here is our css on hover of images*/
+.two:hover{
+    img:hover{
+        transform: scale(1.1);
+        opacity: 0.5;}
+    }
+.four:hover{
+    img:hover{
+        transform: scale(1.1);
+        opacity: 0.5;}    
+}
+.six:hover{
+      img:hover{
+        transform: scale(1.1);
+        opacity: 0.5;}
+}
+.eight:hover{
+     img:hover{
+        transform: scale(1.1);
+        opacity: 0.5;}
+}
+.ten:hover{
+   img:hover{
+        transform: scale(1.1);
+        opacity: 0.5;}  
+}
+.twelve:hover{
+     img:hover{
+        transform: scale(1.1);
+        opacity: 0.5;}
+}
+.hover-image {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+  width: 100%;
+  max-width: 500px;
+}
+.hover-image:hover{
+    filter: grayscale(0%);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    width: 20%;
+    border: 1px solid black;
+}
+.item img{
+    height: 150px;
+    width: 100px;
+    object-fit: cover;
+}
+@media screen and (max-width:500px){
+    .item{
+        width: 50%;
+    }
+    .item img{
+        height: 130px;
+    }
+}
