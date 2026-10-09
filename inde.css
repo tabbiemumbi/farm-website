@@ -132,6 +132,17 @@ background-color: bisque
 .hover-image:hover{
     filter: grayscale(0%);
 }
+/*normal computer screen*/
+.container{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
+}
+.container img{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
 /*smaller screen*/
 @media screen and (max-width:800px){
     .container{
