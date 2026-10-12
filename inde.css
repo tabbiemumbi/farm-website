@@ -5,7 +5,8 @@
     gap: 8px;
     display: flex;
     margin: 1%;
-   
+    flex-direction: column;
+
 }
 /*two is a div talking about cassava*/
 .two{
@@ -21,6 +22,8 @@
     display: flex;
     gap: 8px;
     margin: 1%;
+        flex-direction: column;
+
     }
 .four{
     width: 22%;
@@ -34,6 +37,8 @@
     display: flex;
     gap: 8px;
     margin: 1%;
+    flex-direction: column;
+
 }
 .six{
     width: 22%;
@@ -47,6 +52,8 @@
     display: flex;
     gap: 8px;
     margin: 1%;
+    flex-direction: column;
+
 }
 .eight{
      width: 22%;
@@ -60,6 +67,8 @@
     display: flex;
     gap: 8px;
     margin: 1%;
+     flex-direction: column;
+
 }
 /*ten is div talking about pigs*/
 .ten{
