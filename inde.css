@@ -6,7 +6,6 @@
     display: flex;
     margin: 1%;
     flex-direction: column;
-
 }
 /*two is a div talking about cassava*/
 .two{
@@ -22,8 +21,7 @@
     display: flex;
     gap: 8px;
     margin: 1%;
-        flex-direction: column;
-
+    flex-direction: column;
     }
 .four{
     width: 22%;
@@ -38,7 +36,6 @@
     gap: 8px;
     margin: 1%;
     flex-direction: column;
-
 }
 .six{
     width: 22%;
@@ -53,7 +50,6 @@
     gap: 8px;
     margin: 1%;
     flex-direction: column;
-
 }
 .eight{
      width: 22%;
@@ -67,8 +63,7 @@
     display: flex;
     gap: 8px;
     margin: 1%;
-     flex-direction: column;
-
+flex-direction: column;
 }
 /*ten is div talking about pigs*/
 .ten{
@@ -83,6 +78,7 @@ background-color: bisque;
     display: flex;
     gap: 8px;
     margin: 1%;
+     flex-direction: column;
 }
 .twelve{
  width: 22%;
@@ -96,6 +92,7 @@ background-color: bisque;
     display: flex;
     gap: 8px;
     margin: 1%;
+     flex-direction: column;
 }
 .fourteen{
 width: 22%;
