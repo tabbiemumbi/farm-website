@@ -132,14 +132,87 @@ background-color: bisque;
 .hover-image:hover{
     filter: grayscale(0%);
 }
-/*normal computer screen*/
-.container{
+@media(max-width:1000px){
+    .one{
+    background-color: rgb(21, 194, 165);
+    width: 100vw;
+    height: 20vh;
+    gap: 2px;
     display: flex;
-    gap: 5px;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    }
+    .two{
+    width: 20%;
+    border: solid 2px rgb(64, 22, 214);
+    background-color:lightslategray;  
 }
-.container img{
-    width: 100px;
-    height: 150px;
-    object-fit: cover;
+.three{
+    background-color: rgb(21, 194, 165);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    gap: 2px;
+    grid-template-columns: repeat(3, 1fr);
+
 }
+.four{
+    width: 20%;
+    border: solid 2px rgb(64, 22, 214);
+    background-color:lightslategray
+}
+.five{
+    background-color: rgb(21, 194, 165);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    gap: 2px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.six{
+     width: 20%;
+    border: solid 2px rgb(64, 22, 214);
+    background-color:lightslategray
+}
+.seven{
+    background-color: rgb(21, 194, 165);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    gap: 2px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.eight{
+    width: 20%;
+    border: solid 2px rgb(64, 22, 214);
+    background-color:lightslategray
+}
+.nine{
+  background-color: rgb(21, 194, 165);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    gap: 2px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.ten{
+   width: 20%;
+    border: solid 2px rgb(64, 22, 214);
+    background-color: lightslategray
+} 
+.eleven{
+    background-color: rgb(21, 194, 165);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    gap: 2px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.twelve{
+    width: 20%;
+    border: solid 2px rgb(64, 22, 214);
+    background-color:lightslategray
+} 
+}
+
+
